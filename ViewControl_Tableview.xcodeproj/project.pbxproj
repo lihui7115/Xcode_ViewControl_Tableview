@@ -22,6 +22,7 @@
 		BD73CF7418E6FB8200E1A795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD73CF5318E6FB8200E1A795 /* UIKit.framework */; };
 		BD73CF7C18E6FB8200E1A795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD73CF7A18E6FB8200E1A795 /* InfoPlist.strings */; };
 		BD73CF7E18E6FB8200E1A795 /* ViewControl_TableviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF7D18E6FB8200E1A795 /* ViewControl_TableviewTests.m */; };
+		BD73CF8A18E6FC5700E1A795 /* TVTMyData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD73CF8918E6FC5700E1A795 /* TVTMyData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		BD73CF7918E6FB8200E1A795 /* ViewControl_TableviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControl_TableviewTests-Info.plist"; sourceTree = "<group>"; };
 		BD73CF7B18E6FB8200E1A795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD73CF7D18E6FB8200E1A795 /* ViewControl_TableviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControl_TableviewTests.m; sourceTree = "<group>"; };
+		BD73CF8818E6FC5700E1A795 /* TVTMyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTMyData.h; sourceTree = "<group>"; };
+		BD73CF8918E6FC5700E1A795 /* TVTMyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTMyData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				BD73CF6418E6FB8200E1A795 /* Main_iPad.storyboard */,
 				BD73CF6718E6FB8200E1A795 /* TVTViewController.h */,
 				BD73CF6818E6FB8200E1A795 /* TVTViewController.m */,
+				BD73CF8718E6FC3600E1A795 /* Model */,
 				BD73CF6A18E6FB8200E1A795 /* Images.xcassets */,
 				BD73CF5618E6FB8200E1A795 /* Supporting Files */,
 			);
@@ -153,6 +157,15 @@
 				BD73CF7A18E6FB8200E1A795 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD73CF8718E6FC3600E1A795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD73CF8818E6FC5700E1A795 /* TVTMyData.h */,
+				BD73CF8918E6FC5700E1A795 /* TVTMyData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD73CF8A18E6FC5700E1A795 /* TVTMyData.m in Sources */,
 				BD73CF5C18E6FB8200E1A795 /* main.m in Sources */,
 				BD73CF6918E6FB8200E1A795 /* TVTViewController.m in Sources */,
 				BD73CF6018E6FB8200E1A795 /* TVTAppDelegate.m in Sources */,

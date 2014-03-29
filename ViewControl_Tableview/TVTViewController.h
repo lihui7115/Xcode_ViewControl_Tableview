@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TVTViewController : UIViewController
+
+@interface TVTViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableview;
+@property (strong, nonatomic) NSMutableArray *objects;
 
 @end
